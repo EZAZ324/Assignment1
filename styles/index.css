@@ -8,6 +8,11 @@
     text-align: center;
 }
 
+.red_color_title {
+    color: #F00;
+    font-family: Inter;
+}
+
 /* Header styles */
 .banner1 {
     background-image: url('../images/Banner\ Image.png');
@@ -103,7 +108,101 @@
     text-transform: uppercase;
     margin-left: 40px;
 }
-.banner3_image{
-     width: 30%;
-    margin: 200px 0; 
+
+.banner3_image {
+    width: 30%;
+    margin: 200px 0;
+}
+
+/* Main styles */
+.event_schedule {
+    background-color: #ffeaea;
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.event_schedule .primary_text {
+    margin: 0;
+}
+
+.event_schedule .btn_join_now {
+    margin-top: 60px;
+    background-color: #F00;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 16px 32px;
+    border-radius: 10px;
+}
+
+.new_best_offer_banner {
+    display: flex;
+    align-items: center;
+    /* justify-content: ; */
+
+}
+
+.new_best_offer_banner div {
+    width: 33.33%;
+    box-sizing: border-box;
+}
+
+.left_container h3 {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0 0 15px 0;
+}
+
+.left_container h2 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+.left_container p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+}
+.middle_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle_container_image {
+    /* outline: 10px solid #FFF; */
+    border: 15px solid #F00;
+    border-radius: 50%;
+    width: 90%;
+    /* outline-offset: -60px; */
+}
+
+.right_container h2 {
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.right_container p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
 }
