@@ -1,7 +1,6 @@
 /* Common shared styles */
 .container {
     margin: 50px 150px;
-    background-color: antiquewhite;
 }
 
 .primary_text {
@@ -11,6 +10,9 @@
 .red_color_title {
     color: #F00;
     font-family: Inter;
+}
+.horizontal_rule{
+    margin: 0 auto;
 }
 
 /* Header styles */
@@ -77,6 +79,7 @@
     justify-content: space-between;
     height: 600px;
     padding: 0 120px 0 110px;
+    margin: 100px 0;
 }
 
 .banner3_title {
@@ -128,6 +131,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: 100px 0;
 }
 
 .event_schedule .primary_text {
@@ -148,6 +152,7 @@
 .new_best_offer_banner {
     display: flex;
     align-items: center;
+    margin: 100px 0;
     /* justify-content: ; */
 
 }
@@ -180,11 +185,13 @@
     font-weight: 400;
     line-height: 32px;
 }
-.middle_container{
+
+.middle_container {
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .middle_container_image {
     /* outline: 10px solid #FFF; */
     border: 15px solid #F00;
@@ -205,4 +212,160 @@
     font-weight: 400;
     line-height: 32px;
     /* 160% */
+}
+
+.what_is_function_banner{
+    margin: 100px 0;
+}
+
+.what_is_function_banner .content {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+
+.what_is_function_banner .content h3 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.what_is_function_banner .content h1 {
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.what_is_function_banner .content p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.women_image_container {
+    margin: 0;
+    display: flex;
+    justify-content: right;
+    align-items: baseline;
+    position: relative;
+}
+
+.women_image {
+    width: 35%;
+}
+
+.discount_image {
+    margin-right: 25%;
+    margin-top: 11%;
+    position: absolute;
+    width: 20%;
+}
+
+.red_rectangle {
+    width: 100%;
+    margin: 0;
+    /* position: absolute; */
+}
+
+.gift_box_image {
+    position: absolute;
+    margin-top: -18%;
+    margin-left: 120px;
+    width: 35%;
+}
+
+.subscribe_container {
+    background-color: #fff2f2;
+    padding: 80px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 0;
+    /* justify-content: center; */
+}
+
+.subscribe_container_image {
+    width: 80%;
+}
+
+.subscribe_container h3 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin: 40px 0 0 0;
+}
+
+.subscribe_container p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 80%;
+}
+
+.btn_class {
+    margin-top: 40px;
+}
+
+input[type=email] {
+    border: none;
+    margin: 0;
+    padding: 15px 20px;
+    width: 300px;
+    border-radius: 50px 0 0 50px;
+    font-size: 16px;
+
+
+}
+
+input[type=submit] {
+    border: none;
+    margin: 0;
+    padding: 15px 20px;
+    width: 150px;
+    border-radius: 0 50px 50px 0;
+    background-color: #F00;
+    margin-left: -5px;
+    color: #FFF;
+    font-size: 16px;
+}
+
+/* Footer styles */
+.footer_container {
+    background-color: #070211;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    line-height: 40px;
+    margin-top: 100px;
+}
+.address{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 150px 40px 120px;
+}
+.horizontal_rule{
+    width: 82%;
+    height: .5px;
+    background-color: white;
+}
+.social_meadia_container{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0; 
+}
+.copyright_container{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 80px 50px 120px;
 }
